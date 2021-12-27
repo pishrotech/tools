@@ -3,3 +3,4 @@ $('select').on('change', function () {
     console.log('Changed option value ' + this.value);
     console.log('Changed option text ' + $(this).find('option').filter(':selected').text());
   });
+  
